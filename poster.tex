@@ -1,0 +1,97 @@
+\documentclass[final]{beamer}
+\usetheme{ISR}
+\usepackage[orientation=landscape,size=a1,scale=1.4,debug]{beamerposter}
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+
+\title{Title}
+\author{Author1 \and Author2 \and Author3}
+
+\footer{Author $\cdot$ Email $\cdot$ Addresses}
+\date{}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\usepackage{afterpage}
+\usepackage{listings}
+\usepackage{mathpartir}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\usepackage{amsthm}
+\newtheorem{thm}{Theorem}                                                       
+\newtheorem{cor}[thm]{Corollary}                                                
+\newtheorem{lem}[thm]{Lemma}                                                    
+\newtheorem{prop}[thm]{Proposition}                                             
+\newtheorem{ax}[thm]{Axiom}                                                     
+\theoremstyle{definition}                                                       
+\newtheorem{defn}[thm]{Definition}                                              
+\newtheorem{exam}[thm]{Example}                                                 
+\newtheorem{rem}[thm]{Remark}                                                   
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{frame}[fragile]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The QR code -- if you do not wany this, simply comment out 
+% all three lines.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{textblock}{10}(1,1)
+\includegraphics[height=3cm]{images/qr.png}
+\end{textblock}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Text sections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{textblock}{27}(2,5.5)
+
+\begin{block}{Abstract}
+\end{block}
+
+\begin{block}{More sidebar Stuff}
+\end{block}
+
+\end{textblock}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Carnegie Mellon University logo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{textblock}{23}(1.7,53.5)
+\includegraphics[height=2.7cm,width=27cm]{images/cmuh.png}
+\end{textblock}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main Sections 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{textblock}{51}(31,5.5)
+
+\begin{block}{The Main Validation}
+\end{block}
+
+\begin{block}{Secondary Validation}
+\end{block}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main ISR Logo 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{textblock}{10}(72,52.5)
+\includegraphics[width=10cm]{images/isr.png}
+\end{textblock}
+
+
+\end{textblock}
+
+\end{frame}
+\end{document}
