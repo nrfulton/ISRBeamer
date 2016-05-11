@@ -3,6 +3,8 @@
 This is an unofficial poster template for the Institute for Software Research
 at Carnegie Mellon.
 
+[Here's an example of what the emplate looks like.](https://github.com/cyrus-/papers/blob/master/sanitation-psp14/poster/poster.pdf).
+
 # Credits
 
 Nathan Fulton 2014.
